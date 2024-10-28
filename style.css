@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  /* border: 2px red solid; */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+img {
+  box-sizing: content-box;
+}
+
+/* centering and containing content */
+
+.wrapper {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+p {
+  max-width: 80%;
+  font-weight: 400;
+}
+
+h1 {
+  text-decoration: wavy;
+}
+
+/* List styling */
+
+li {
+  padding: 5px 0;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+li a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li span {
+  position: relative;
+  left: -5px;
+}
+
+.non-bold li {
+  font-weight: lighter;
+}
+
+/* Reduce font size of captions under images */
+
+figcaption {
+  font-size: smaller;
+}
